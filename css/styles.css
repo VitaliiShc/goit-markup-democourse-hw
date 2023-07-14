@@ -116,8 +116,13 @@ ul {
   text-align: center;
   background: var(--brand-color);
   border: none;
-  border-radius: 0.06em;
+  border-radius: 4px;
   cursor: pointer;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background: #188ce8;
 }
 
 /* ------ Features ------ */
@@ -232,6 +237,7 @@ ul {
 .portfolio-card-link {
 }
 .portfolio-card-subtitle {
+  color: var(--primary-color);
   font-size: 18px;
   font-weight: 700;
   line-height: 2;
